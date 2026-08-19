@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050507" />
+  <meta name="description" content="ONE15 Audio — original custom music, genre fusion and sound built around your idea." />
+  <title>ONE15 Audio</title>
+  <link rel="canonical" href="https://one15audio.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ONE15 Audio" />
+  <meta property="og:title" content="ONE15 Audio — Original Sound Without Genre Limits" />
+  <meta property="og:description" content="ONE15 Audio — original custom music, genre fusion and sound built around your idea." />
+  <meta property="og:url" content="https://one15audio.com/" />
+  <meta property="og:image" content="https://one15audio.com/assets/poster.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ONE15 Audio — Original Sound Without Genre Limits" />
+  <meta name="twitter:description" content="ONE15 Audio — original custom music, genre fusion and sound built around your idea." />
+  <meta name="twitter:image" content="https://one15audio.com/assets/poster.jpg" />
+
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ONE15 Audio home">
+      <img src="assets/one15-logo.webp" alt="ONE15 Audio" />
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#sound">Sound</a>
+      <a href="#custom">Custom Tracks</a>
+      <a href="#process">Process</a>
+      <a class="nav-cta" href="#contact">Start a Project</a>
+    </nav>
+    <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#sound">Sound</a>
+    <a href="#custom">Custom Tracks</a>
+    <a href="#process">Process</a>
+    <a class="nav-cta" href="#contact">Start a Project</a>
+  </nav>
+
+  <main id="top">
+    <section class="video-stage" aria-label="ONE15 Audio showreel">
+      <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="assets/poster.jpg">
+        <source src="assets/one15-hero.mp4" type="video/mp4" />
+      </video>
+      <button id="soundToggle" class="sound-toggle" type="button" aria-pressed="false">Sound On</button>
+    </section>
+
+    <section class="proof" aria-label="Audience and play statistics">
+      <div><strong>150K+</strong><span>PLAYS</span></div>
+      <div class="rule"></div>
+      <div><strong>1.6K</strong><span>FOLLOWERS</span></div>
+      <p>ORIGINAL SOUND WITHOUT GENRE LIMITS.</p>
+    </section>
+
+    <section class="section intro" id="sound">
+      <p class="kicker">NO GENRE BOXES</p>
+      <h1>We bend genres.<br>Then build something new.</h1>
+      <p class="lede">Tech House. Hip-Hop. Southern Rock. Psychedelic Funk. Cinematic sound. Or a fusion that does not have a name yet. ONE15 builds original music around the idea — not around a preset lane.</p>
+      <div class="chips" aria-label="Example styles">
+        <span>Tech House</span><span>Hip-Hop</span><span>Southern Rock</span><span>Psychedelic Funk</span><span>Genre Fusion</span><span>Custom Sound</span>
+      </div>
+    </section>
+
+    <section class="section custom" id="custom">
+      <div>
+        <p class="kicker">YOUR MOMENT. YOUR TRACK.</p>
+        <h2>Custom music for anything worth remembering.</h2>
+      </div>
+      <div class="custom-copy">
+        <p>Birthdays, weddings, anniversaries, tributes, gifts, teams, businesses, events, creator content — or simply an idea you want turned into music.</p>
+        <p class="tagline">You bring the story. We build the soundtrack.</p>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="process-title">
+        <p class="kicker">THE PROCESS</p>
+        <h2>Your idea.<br>Built from zero.</h2>
+      </div>
+      <div class="steps">
+        <article><b>01</b><div><h3>Give us the feeling</h3><p>A reference, visual, story, campaign or simply the energy you want.</p></div></article>
+        <article><b>02</b><div><h3>We push the edges</h3><p>Genre fusion, arrangement, sound design and iteration until it has its own fingerprint.</p></div></article>
+        <article><b>03</b><div><h3>Ready for the moment</h3><p>Original music shaped for creators, brands, events, gifts and personal stories.</p></div></article>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <img src="assets/one15-logo.webp" alt="ONE15 Audio" />
+      <p>IF YOU WANT COOKIE-CUTTER SOUND,</p>
+      <h2>WE'RE PROBABLY NOT FOR YOU.</h2>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="kicker">ONE15 AUDIO</p>
+        <h2>Make something<br>people remember.</h2>
+      </div>
+      <div class="contact-card">
+        <p>Tell us what you are building, celebrating or imagining — and what it needs to feel like.</p>
+        <a href="mailto:hello@one15audio.com">hello@one15audio.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/one15-logo.webp" alt="ONE15 Audio" />
+    <p>ORIGINAL AUDIO. BUILT DIFFERENT.</p>
+    <p>© <span id="year"></span> ONE15 Audio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
